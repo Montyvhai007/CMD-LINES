@@ -1,0 +1,7 @@
+>>Cmd
+>>diskpart
+diskpart>>list disk
+	>>select disk **number
+	>>clean
+	>>create partition primary
+	>>format fs=fat32 quick
